@@ -77,7 +77,7 @@
 * <b>IOU loss</b>
 ![](Capture9.PNG)
 * <b>Generalized IOU</b>为了解决`IoU loss在检测框和ground truth在没有重合区域的时候IoU loss的值统一为1`的问题(即使是错误，也应该有错的多或者错的少)
-![](Capture11.PNG)
+![](Capture14.png)
 ## FLOPs 和 FLOPS
 * FLOPS：floating point operations per second
   * 衡量硬件的计算能力
