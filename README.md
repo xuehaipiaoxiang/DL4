@@ -43,27 +43,6 @@
 
 <b>所以，是否对object queries 的生成方式进行一些改进，避免其依赖先验</b>(训练数据集和测试数据集中的待检测目标有相同的位置分布)
 
-# 会议论文格式总结
-* abtract</br>
-  三句话
-  * 研究的背景(可略过)
-  * 提出新的方法
-  * 该方法的结果
-
-* introduction
-  * ？
-* related works
-  * 目的：通过业界相关工作存在的问题说明本文研究的意义
-* model or approach
-  * 按照模型结构，从bottom到up描述
-  * 最后一般是`loss function` 的设计
-* experiments
-  * 实验平台(数据集，显卡)
-  * 技术细节(超参数的设定，使用的tricks)
-  * 对比试验
-  * 消融试验
-  * 分析
-
 # 机器学习常见的概念
 ## indicator function
 * x是元素，A是集合
@@ -110,12 +89,11 @@
 # 会议论文格式总结
 * abtract</br>
   三句话
-  * 研究的背景(可略过)
+  * 研究的背景 || 发现的问题
   * 提出新的方法
-  * 该方法的结果
+  * 该方法的结果 || 解决了问题
 
 * introduction
-  * ？
 * related works
   * 目的：通过业界相关工作存在的问题说明本文研究的意义
 * model or approach
